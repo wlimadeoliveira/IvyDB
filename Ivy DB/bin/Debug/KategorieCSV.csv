@@ -1,0 +1,132 @@
+ArtID;TypID;ElementID;Bezeichnung
+1;0;0;Passive Bauelemente
+1;1;0;Widerstände
+1;1;1;Widerstände
+1;1;2;Widerstandsnetzwerk
+1;1;3;Leistungswiderstände
+1;1;4;Polentiometer & Trimmer
+1;1;5;NTC / PTC
+1;1;6;Photowiderstände
+1;1;7;Varistoren
+1;2;0;Kapazitäten
+1;2;1;Keramik
+1;2;2;Elko / Tantal
+1;2;3;Andere
+1;3;0;Induktivitäten / Chockes
+1;4;0;Kristalle & Oszillatoren
+1;5;0;Schaltungssicherheit / Filter / EMI
+2;0;0;Diskrete Halbleiter
+2;1;0;Transistoren
+2;1;1;FET
+2;1;2;Bipolar
+2;1;3;Sonstige
+2;1;4;Treiber / FET Treiber
+2;2;0;Dioden
+2;2;1;Universal
+2;2;2;Schottky
+2;2;3;Z-Dioden
+2;2;4;PIN Dioden
+2;2;5;Gleichrichter
+2;2;6;Überspannungs-/ TVS-Dioden
+2;2;7;Sonstige
+2;3;0;Andere
+3;0;0;Integrierte Schaltung / Chips
+3;1;0;Embedded & Logik
+3;1;1;Microcontroller
+3;1;2;FPGA / CPLD
+3;1;3;Buffer
+3;1;4;Diskrete Gatter / Glue Logic
+3;1;5;Komparatoren
+3;1;6;Register
+3;1;7;Speicher
+3;1;8;Andere
+3;2;0;Konverter
+3;3;0;Interface Elemente
+3;3;1;BUS / IO
+3;3;2;Buffer
+3;3;3;Isolatoren
+3;4;0;Analog
+3;4;1;OpAmps
+3;5;0;Clock & Timing
+3;5;1;PLL
+3;5;2;Clock Buffer
+3;5;3;Timers
+3;6;0;Speisung / Power Supply
+3;6;1;Lineare Spannungsregler
+3;6;2;DCDC / Switching Regler
+3;6;3;Referenzen
+3;7;0;Treiber
+3;8;0;HF Elemente
+3;8;1;Amps
+3;8;2;Koppler / Splitter / Zirkulatoren / Baluns / Trafos
+3;8;3;Mischer
+3;8;4;Attenuatoren
+3;8;5;Filter
+3;8;6;Power Detector
+3;8;7;Antenne
+3;8;8;Schalter
+3;8;9;Anderen
+4;0;0;Andere Bauteile
+4;1;0;Optische Elemente
+4;1;1;LED
+4;1;2;Optokoppler
+4;1;3;Display
+4;1;4;Andere
+4;2;0;Sensoren
+4;2;1;Temperatur
+4;2;2;Optisch
+4;2;3;Bewegung / Beschleunigung / Winkel / Position
+4;2;4;Andere
+5;0;0;Elektromechanische Teile
+5;1;0;Stecker / Verbinder
+5;1;1;IC Sockel
+5;1;2;PCB-PCB Verbinder
+5;1;3;D-SUB
+5;1;4;USB / Ethernet
+5;1;5;IDC
+5;1;6;Header
+5;1;7;HF
+5;1;8;Andere
+5;2;0;Schalter und Buttons
+5;2;1;Schalter
+5;2;2;Push Buttons
+5;2;3;Code Switch
+5;2;4;DIP Switch
+5;3;0;Relais
+5;4;0;Sicherung
+5;5;0;Batterien & Batteriehalter
+5;6;0;Audio Elemente
+5;6;1;Lautsprecher / Buzzer
+5;7;0;Mikrofone
+5;8;0;Tranformatoren
+5;8;1;Power
+5;8;2;Signal / Audio
+5;9;0;Motoren
+6;0;0;Mechanische Teile
+6;1;0;Kühlkörper
+6;2;0;Schrauben
+6;3;0;Bolzen / Stifte / Federn
+6;4;0;Abstandshalter
+6;5;0;RF
+6;5;1;Shield
+6;5;2;Antennen
+6;6;0;Gehäuse / Boxen / Racks
+6;7;0;PCB Material
+6;7;1;Lötpaste
+6;7;2;Flussmittel
+6;8;0;Klebeband, Kleber
+7;0;0;Kabel
+7;1;0;Kabelkonfektion
+7;2;0;HF Kabel
+7;3;0;Draht
+7;4;0;Litzen
+7;5;0;Schrumpfschlauch
+8;0;0;Baugruppen / Module
+8;1;0;Netzteile
+8;2;0;Prozessorenboards / Embedded Computer
+8;3;0;GPS
+8;4;0;Frontends
+8;5;0;Devboards, Kits, Programmer
+9;0;0;Sonstiges
+9;1;0;PC Zubehör
+9;2;0;Werkzeug & Messgeräte

@@ -1,0 +1,88 @@
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Ivy DB.exe.config
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Ivy DB.exe
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Ivy DB.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Dapper.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\System.Data.SQLite.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Dapper.xml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\System.Data.SQLite.xml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\System.Data.SQLite.dll.config
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\MainWindow.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\View\AddNewManFactOrSupplier.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\View\AddOrUpdate.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\View\AdvancedSearch.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\View\CSVRowsSelection.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\App.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy DB_MarkupCompile.cache
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy DB_MarkupCompile.lref
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\MainWindow.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\View\AddNewManFactOrSupplier.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\View\AddOrUpdate.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\View\AdvancedSearch.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\View\CSVRowsSelection.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy DB.g.resources
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy_DB.Properties.Resources.resources
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy DB.csproj.GenerateResource.cache
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy DB.csproj.CoreCompileInputs.cache
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy DB.csproj.CopyComplete
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy DB.exe
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy DB.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\DeltaCompressionDotNet.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\DeltaCompressionDotNet.MsDelta.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\DeltaCompressionDotNet.PatchApi.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Mono.Cecil.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Mono.Cecil.Mdb.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Mono.Cecil.Pdb.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Mono.Cecil.Rocks.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\NuGet.Squirrel.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\SharpCompress.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Splat.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Squirrel.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\NuGet.Squirrel.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Splat.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Squirrel.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Release\Interop.bpac.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Release\Ivy DB.csprojAssemblyReference.cache
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Ivy DB.exe.config
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Ivy DB.exe
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Ivy DB.pdb
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Dapper.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\DeltaCompressionDotNet.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\DeltaCompressionDotNet.MsDelta.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\DeltaCompressionDotNet.PatchApi.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Interop.bpac.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Mono.Cecil.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Mono.Cecil.Mdb.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Mono.Cecil.Pdb.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Mono.Cecil.Rocks.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\NuGet.Squirrel.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\SharpCompress.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Splat.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Squirrel.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\System.Data.SQLite.dll
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Dapper.xml
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\NuGet.Squirrel.pdb
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Splat.pdb
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\Squirrel.pdb
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\System.Data.SQLite.xml
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\bin\Release\System.Data.SQLite.dll.config
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy DB.csprojAssemblyReference.cache
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\MainWindow.g.cs
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\View\AddNewManFactOrSupplier.g.cs
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\View\AddOrUpdate.g.cs
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\View\AdvancedSearch.g.cs
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\View\CSVRowsSelection.g.cs
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\App.g.cs
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy DB_MarkupCompile.cache
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy DB_MarkupCompile.lref
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\MainWindow.baml
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\View\AddNewManFactOrSupplier.baml
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\View\AddOrUpdate.baml
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\View\AdvancedSearch.baml
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\View\CSVRowsSelection.baml
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy DB.g.resources
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy_DB.Properties.Resources.resources
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy DB.csproj.GenerateResource.cache
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy DB.csproj.CoreCompileInputs.cache
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy DB.csproj.CopyComplete
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy DB.exe
+C:\Users\WORK\source\repos\Ivy DB\Ivy DB\obj\Release\Ivy DB.pdb

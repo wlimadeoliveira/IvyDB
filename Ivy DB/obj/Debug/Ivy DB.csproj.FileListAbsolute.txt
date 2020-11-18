@@ -1,0 +1,69 @@
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\bin\Debug\Ivy DB.exe.config
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\bin\Debug\Ivy DB.exe
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\bin\Debug\Ivy DB.pdb
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy DB.csprojAssemblyReference.cache
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\MainWindow.g.cs
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\App.g.cs
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy DB_MarkupCompile.cache
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy DB_MarkupCompile.lref
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\MainWindow.baml
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy DB.g.resources
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy_DB.Properties.Resources.resources
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy DB.csproj.GenerateResource.cache
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy DB.csproj.CoreCompileInputs.cache
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy DB.exe
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy DB.pdb
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\View\AddOrUpdate.g.cs
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\View\AdvancedSearch.g.cs
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\bin\Debug\Dapper.dll
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\bin\Debug\System.Data.SQLite.dll
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\bin\Debug\Dapper.xml
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\bin\Debug\System.Data.SQLite.xml
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\View\AddOrUpdate.baml
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\View\AdvancedSearch.baml
+C:\Users\Wagner\source\repos\Ivy DB\Ivy DB\obj\Debug\Ivy DB.csproj.CopyComplete
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Ivy DB.exe.config
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Ivy DB.exe
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Ivy DB.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Dapper.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\System.Data.SQLite.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Dapper.xml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\System.Data.SQLite.xml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\System.Data.SQLite.dll.config
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\MainWindow.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\View\AddNewManFactOrSupplier.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\View\AddOrUpdate.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\View\AdvancedSearch.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\App.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy DB_MarkupCompile.cache
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy DB_MarkupCompile.lref
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\MainWindow.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\View\AddNewManFactOrSupplier.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\View\AddOrUpdate.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\View\AdvancedSearch.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy DB.g.resources
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy_DB.Properties.Resources.resources
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy DB.csproj.GenerateResource.cache
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy DB.csproj.CoreCompileInputs.cache
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy DB.csproj.CopyComplete
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy DB.exe
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy DB.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\View\CSVRowsSelection.g.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\View\CSVRowsSelection.baml
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\Ivy DB.csprojAssemblyReference.cache
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\DeltaCompressionDotNet.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\DeltaCompressionDotNet.MsDelta.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\DeltaCompressionDotNet.PatchApi.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Mono.Cecil.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Mono.Cecil.Mdb.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Mono.Cecil.Pdb.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Mono.Cecil.Rocks.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\NuGet.Squirrel.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\SharpCompress.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Splat.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Squirrel.dll
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\NuGet.Squirrel.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Splat.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Squirrel.pdb
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\bin\Debug\Interop.bpac.dll

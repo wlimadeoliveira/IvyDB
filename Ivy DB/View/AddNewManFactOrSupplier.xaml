@@ -1,0 +1,23 @@
+﻿<Window x:Class="Inventar_bearbeiten.AddNewManFactOrSupplier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Inventar_bearbeiten"
+        mc:Ignorable="d"
+        Title="Add New Manfacturer Or Supplier" Height="249.333" Width="284.667">
+    <Grid Margin="0,0,3.333,1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="677*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="txtName" KeyboardNavigation.TabIndex="1" HorizontalAlignment="Left" Height="23" Margin="68.667,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox  Name="txtWebAddress" KeyboardNavigation.TabIndex="3" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="71.667,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Name="lbl1" Content="Name" HorizontalAlignment="Left" Margin="20,44,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Name="lbl3" Content="Web Address" HorizontalAlignment="Left" Margin="20,125,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Button Content="Add" Grid.Column="1" HorizontalAlignment="Left" Margin="113.667,178,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Add_New"/>
+        <TextBox Name="txtClientNumber" KeyboardNavigation.TabIndex="2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="71.667,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Name="lbl2" Grid.ColumnSpan="2" Content="Client Number" HorizontalAlignment="Left" Margin="20,86,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.243,0.167"/>
+
+    </Grid>
+</Window>

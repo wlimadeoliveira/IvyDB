@@ -1,0 +1,126 @@
+﻿<Window x:Class="Inventar_bearbeiten.AdvancedSearch"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ivy_2.View"
+        xmlns:uc="clr-namespace:Ivy_2.View"
+        mc:Ignorable="d"
+        Title="Ivy 1.0" Height="1036.334"  Width="1585" MinWidth="1585" Closed="WindowsClosed"
+        Background="AliceBlue"
+        ResizeMode="NoResize"
+        
+        >
+
+
+
+
+
+
+
+
+
+
+    <Window.Resources>
+        <Style x:Key="DGHeaderStyle" TargetType="{x:Type DataGrid}">
+            <Setter Property="ColumnHeaderStyle" Value="{DynamicResource DGCHeaderStyle}" />
+        </Style>
+        <Style x:Key="DGCHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Height" Value="40" />
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="18" />
+
+            <Setter Property="FontFamily" Value="Calibri" />
+            <Setter Property="Margin"  Value="0,0,5,0" />
+            <Setter Property="BorderThickness" Value="2"/>
+        </Style>
+    </Window.Resources>
+
+
+
+
+    <Grid Margin="0,0,35.333,43.667">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="688*"/>
+            <ColumnDefinition Width="305*"/>
+        </Grid.ColumnDefinitions>
+        <Menu DockPanel.Dock="Top" Margin="0,0,0,935" >
+            <MenuItem Header="_Options" Height="29" Width="74">
+                <MenuItem Header="Export as Excel File" Click="Click_ExportExcelFile" />
+                <MenuItem Header="Import from Excel File" Click="Click_ImportExcelFile" />
+                <MenuItem Header="_Config" >
+                    <MenuItem Header="_Default Setting"/>
+                    <MenuItem Header="_Custom 1"/>
+                    <MenuItem Header="_Custom 2"/>
+                    <Separator></Separator>
+                    <MenuItem Header="_Create Setting"/>
+                </MenuItem>
+            </MenuItem >
+        </Menu>
+        <DataGrid x:Name="dtGridInventarListe" AutoGenerateColumns="False"   Margin="12,30,-1.333,425" VerticalAlignment="Stretch" Width="Auto" MinWidth="100" IsReadOnly="True" HorizontalAlignment="Stretch" Height="Auto" MinHeight="500" AlternatingRowBackground="AliceBlue"  Grid.ColumnSpan="3"  RowHeight="30" Style="{DynamicResource DGHeaderStyle}" MouseDoubleClick="UpdateRowDoubleClick" Unloaded="DtGridInventarListe_Unloaded" SelectionChanged="DtGridInventarListe_SelectionChanged"  >
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="Article" Binding="{Binding ArticleID}"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" />
+                <DataGridTextColumn Header="Manufacturer" Binding="{Binding Manufacturer}"/>
+                <DataGridTextColumn Header="Manufacturer Part Number" Binding="{Binding ManufacturerPartNumber}"/>
+                <DataGridTextColumn Header="Supplier" Binding="{Binding Supplier}"/>
+                <DataGridTextColumn Header="Supplier Part Number" Binding="{Binding SupplierPartNumber}"/>
+                <DataGridTextColumn Header="Pricing" Binding="{Binding Pricing}"/>
+                <DataGridTextColumn Header="Quantity Avaible" Binding="{Binding Quantity}"/>
+                <DataGridTextColumn Header="Project" Binding="{Binding Project}"/>
+                <DataGridTextColumn Header="Created" Binding="{Binding Created, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                <DataGridTextColumn Header="Location" Binding="{Binding Location}"/>
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Show more info" Click="startBrowser" />
+                    <MenuItem Header="Create CSV" Click="Button_Click"/>
+                    <MenuItem Header="Print Label" Click="PrintLabel"></MenuItem>
+                    <MenuItem Header="Clone Article" Click="Clone_Article"></MenuItem>
+                    <Separator></Separator>
+                    <Separator></Separator>
+                    <MenuItem Header="Remove Article" Click="BTN_RemoveArticle"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+
+        <CheckBox Name="cbxCategory" Content="ArticleID" Grid.Column="1" HorizontalAlignment="Left" Margin="0,545,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.3,0.609"/>
+        <CheckBox Name="cbxDescription" Content="Description" Grid.Column="1" HorizontalAlignment="Left" Margin="0,571,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.767,6.609" Width="98"/>
+        <Grid Grid.ColumnSpan="3" Margin="3,0,-3.333,-38">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="688*"/>
+                <ColumnDefinition Width="305*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Margin="0,0,0.667,-102.333" Grid.ColumnSpan="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="688*"/>
+                    <ColumnDefinition Width="305*"/>
+                </Grid.ColumnDefinitions>
+
+                <CheckBox Name="cbxManufacturerPartNumber" Content="ManufacturerPartNumber" Grid.Column="1" HorizontalAlignment="Left" Margin="85,572,0,0" VerticalAlignment="Top" Width="164" RenderTransformOrigin="0.732,-5.37"/>
+                <CheckBox Name="cbxManufacturer" Content="Manufacturer" Grid.Column="1" HorizontalAlignment="Left" Margin="85,547,0,0" VerticalAlignment="Top" Width="95"/>
+                <CheckBox Name="cbxSupplier" Content="Supplier" Grid.Column="1" HorizontalAlignment="Left" Margin="269,547,0,0" VerticalAlignment="Top"/>
+                <CheckBox Name="cbxSupplierPartNumber" Content="SupplierPartNumber" Grid.Column="1" HorizontalAlignment="Left" Margin="269,572,0,0" VerticalAlignment="Top"/>
+
+                <CheckBox Name="cbxLocation" Content="Location" HorizontalAlignment="Left" Margin="72,594,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                <Label Name="lblRowsCount" Content="Label" Grid.Column="1" HorizontalAlignment="Left" Margin="0,626,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.034,0.628"/>
+            </Grid>
+        </Grid>
+        <Grid x:Name="gridAddOrUpdate" Grid.ColumnSpan="2" Margin="395,604,9.667,10" Grid.Column="1">
+        </Grid>
+        <TextBox x:Name="txtSuchfeld" HorizontalAlignment="Right" Height="44" Margin="0,0,143.667,366" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="888" TextAlignment="Right" FontFamily="Verdana" FontSize="30" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Column="1" KeyUp="TxtSuchfeld_KeyUp"/>
+
+        <Button x:Name="btnSuchen" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="Suchen"  Margin="0,0,-3.333,366"  Width="128" Click="BtnSuchen_Click" Grid.Column="2" Height="44" KeyUp="BtnSuchen_KeyUp"/>
+
+    </Grid>
+
+
+
+
+</Window>

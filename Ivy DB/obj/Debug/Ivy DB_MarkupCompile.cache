@@ -1,0 +1,20 @@
+﻿Ivy DB
+
+
+winexe
+C#
+.cs
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\obj\Debug\
+Ivy_DB
+none
+false
+DEBUG;TRACE
+\\192.168.1.10\software\Wagner\Ivy DB\Ivy DB\App.xaml
+51622821182
+
+341376544979
+28631985667
+MainWindow.xaml;View\AddNewManFactOrSupplier.xaml;View\AddOrUpdate.xaml;View\AdvancedSearch.xaml;View\CSVRowsSelection.xaml;
+
+False
+

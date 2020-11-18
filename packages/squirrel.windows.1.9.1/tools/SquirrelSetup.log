@@ -1,0 +1,227 @@
+﻿2019-08-20 10:11:36> Program: Starting Squirrel Updater: --releasify IvyDB.1.0.0.nupkg
+2019-08-20 10:11:36> Program: Bootstrapper EXE found at:\\192.168.1.10\software\Wagner\Ivy DB\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-20 10:11:36> Program: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.0.nupkg
+2019-08-20 10:11:37> ReleasePackage: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.0.nupkg => \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.0-full.nupkg
+2019-08-20 10:11:37> ReleasePackage: Extracting dependent packages: []
+2019-08-20 10:11:37> ReleasePackage: Removing unnecessary data
+2019-08-20 10:11:37> ReleasePackage: No release notes found in C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\IvyDB.nuspec
+2019-08-20 10:11:39> Program: Building embedded zip file for Setup.exe
+2019-08-20 11:28:50> Program: Starting Squirrel Updater: --releasify IvyDB.1.0.0.nupkg
+2019-08-20 11:28:50> Program: Bootstrapper EXE found at:\\192.168.1.10\software\Wagner\Ivy DB\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-20 11:28:50> Program: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.0.nupkg
+2019-08-20 11:28:50> ReleasePackage: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.0.nupkg => \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.0-full.nupkg
+2019-08-20 11:28:51> ReleasePackage: Extracting dependent packages: []
+2019-08-20 11:28:51> ReleasePackage: Removing unnecessary data
+2019-08-20 11:28:51> ReleasePackage: No release notes found in C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\IvyDB.nuspec
+2019-08-20 11:28:52> Program: Building embedded zip file for Setup.exe
+2019-08-20 11:45:39> Program: Starting Squirrel Updater: --releasify IvyDB.1.0.1.nupkg
+2019-08-20 11:45:39> Program: Bootstrapper EXE found at:\\192.168.1.10\software\Wagner\Ivy DB\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-20 11:45:39> Program: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.1.nupkg
+2019-08-20 11:45:39> ReleasePackage: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.1.nupkg => \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.1-full.nupkg
+2019-08-20 11:45:39> ReleasePackage: Extracting dependent packages: []
+2019-08-20 11:45:39> ReleasePackage: Removing unnecessary data
+2019-08-20 11:45:39> ReleasePackage: No release notes found in C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\IvyDB.nuspec
+2019-08-20 11:45:41> DeltaPackageBuilder: Extracting .\Releases\IvyDB-1.0.0-full.nupkg and \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.1-full.nupkg into C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb
+2019-08-20 11:45:41> DeltaPackageBuilder: \lib\net45\Dapper.dll hasn't changed, writing dummy file
+2019-08-20 11:45:41> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-08-20 11:45:41> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-08-20 11:45:41> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-08-20 11:45:41> DeltaPackageBuilder: \lib\net45\Interop.bpac.dll hasn't changed, writing dummy file
+2019-08-20 11:45:41> DeltaPackageBuilder: \lib\net45\InventarDB.db hasn't changed, writing dummy file
+2019-08-20 11:45:42> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB.exe
+2019-08-20 11:45:42> DeltaPackageBuilder: \lib\net45\Ivy DB.exe.config hasn't changed, writing dummy file
+2019-08-20 11:45:42> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB_ExecutionStub.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB_ExecutionStub.exe
+2019-08-20 11:45:42> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-08-20 11:45:42> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-08-20 11:45:42> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-08-20 11:45:42> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-08-20 11:45:42> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 11:45:42> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-08-20 11:45:42> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-08-20 11:45:42> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 11:45:43> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll hasn't changed, writing dummy file
+2019-08-20 11:45:43> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll.config hasn't changed, writing dummy file
+2019-08-20 11:45:43> DeltaPackageBuilder: \lib\net45\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 11:45:43> DeltaPackageBuilder: \lib\net45\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 11:45:43> Program: Building embedded zip file for Setup.exe
+2019-08-20 11:51:06> Program: Starting Squirrel Updater: --releasify IvyDB.1.0.1.nupkg
+2019-08-20 11:51:06> Program: Bootstrapper EXE found at:\\192.168.1.10\software\Wagner\Ivy DB\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-20 11:51:06> Program: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.1.nupkg
+2019-08-20 11:51:06> ReleasePackage: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.1.nupkg => \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.1-full.nupkg
+2019-08-20 11:51:07> ReleasePackage: Extracting dependent packages: []
+2019-08-20 11:51:07> ReleasePackage: Removing unnecessary data
+2019-08-20 11:51:07> ReleasePackage: No release notes found in C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\IvyDB.nuspec
+2019-08-20 11:51:07> DeltaPackageBuilder: Extracting .\Releases\IvyDB-1.0.0-full.nupkg and \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.1-full.nupkg into C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb
+2019-08-20 11:51:08> DeltaPackageBuilder: \lib\net45\Dapper.dll hasn't changed, writing dummy file
+2019-08-20 11:51:08> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-08-20 11:51:08> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-08-20 11:51:08> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-08-20 11:51:08> DeltaPackageBuilder: \lib\net45\Interop.bpac.dll hasn't changed, writing dummy file
+2019-08-20 11:51:08> DeltaPackageBuilder: \lib\net45\InventarDB.db hasn't changed, writing dummy file
+2019-08-20 11:51:08> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB.exe
+2019-08-20 11:51:08> DeltaPackageBuilder: \lib\net45\Ivy DB.exe.config hasn't changed, writing dummy file
+2019-08-20 11:51:08> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB_ExecutionStub.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB_ExecutionStub.exe
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll.config hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 11:51:09> DeltaPackageBuilder: \lib\net45\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 11:51:10> Program: Building embedded zip file for Setup.exe
+2019-08-20 11:56:05> Program: Starting Squirrel Updater: --releasify IvyDB.1.0.1.nupkg
+2019-08-20 11:56:05> Program: Bootstrapper EXE found at:\\192.168.1.10\software\Wagner\Ivy DB\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-20 11:56:05> Program: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.1.nupkg
+2019-08-20 11:56:05> ReleasePackage: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.1.nupkg => \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.1-full.nupkg
+2019-08-20 11:56:05> ReleasePackage: Extracting dependent packages: []
+2019-08-20 11:56:05> ReleasePackage: Removing unnecessary data
+2019-08-20 11:56:05> ReleasePackage: No release notes found in C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\IvyDB.nuspec
+2019-08-20 11:56:06> DeltaPackageBuilder: Extracting .\Releases\IvyDB-1.0.0-full.nupkg and \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.1-full.nupkg into C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb
+2019-08-20 11:56:07> DeltaPackageBuilder: \lib\net45\Dapper.dll hasn't changed, writing dummy file
+2019-08-20 11:56:07> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-08-20 11:56:07> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-08-20 11:56:07> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-08-20 11:56:07> DeltaPackageBuilder: \lib\net45\Interop.bpac.dll hasn't changed, writing dummy file
+2019-08-20 11:56:07> DeltaPackageBuilder: \lib\net45\InventarDB.db hasn't changed, writing dummy file
+2019-08-20 11:56:07> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB.exe
+2019-08-20 11:56:07> DeltaPackageBuilder: \lib\net45\Ivy DB.exe.config hasn't changed, writing dummy file
+2019-08-20 11:56:07> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB_ExecutionStub.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB_ExecutionStub.exe
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll.config hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 11:56:08> DeltaPackageBuilder: \lib\net45\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 11:56:09> Program: Building embedded zip file for Setup.exe
+2019-08-20 12:00:12> Program: Starting Squirrel Updater: --releasify IvyDB.1.0.2.nupkg
+2019-08-20 12:00:12> Program: Bootstrapper EXE found at:\\192.168.1.10\software\Wagner\Ivy DB\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-20 12:00:12> Program: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.2.nupkg
+2019-08-20 12:00:12> ReleasePackage: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.2.nupkg => \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.2-full.nupkg
+2019-08-20 12:00:13> ReleasePackage: Extracting dependent packages: []
+2019-08-20 12:00:13> ReleasePackage: Removing unnecessary data
+2019-08-20 12:00:13> ReleasePackage: No release notes found in C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\IvyDB.nuspec
+2019-08-20 12:00:14> DeltaPackageBuilder: Extracting .\Releases\IvyDB-1.0.1-full.nupkg and \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.2-full.nupkg into C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Dapper.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Interop.bpac.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\InventarDB.db hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Ivy DB.exe hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Ivy DB.exe.config hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Ivy DB_ExecutionStub.exe hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll.config hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 12:00:15> DeltaPackageBuilder: \lib\net45\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 12:00:16> Program: Building embedded zip file for Setup.exe
+2019-08-20 12:05:07> Program: Starting Squirrel Updater: --realisify IvyDB.1.0.2.nupkg
+2019-08-20 12:05:25> Program: Starting Squirrel Updater: --releasify IvyDB.1.0.2.nupkg
+2019-08-20 12:05:25> Program: Bootstrapper EXE found at:\\192.168.1.10\software\Wagner\Ivy DB\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-20 12:05:25> Program: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.2.nupkg
+2019-08-20 12:05:25> ReleasePackage: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.2.nupkg => \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.2-full.nupkg
+2019-08-20 12:05:26> ReleasePackage: Extracting dependent packages: []
+2019-08-20 12:05:26> ReleasePackage: Removing unnecessary data
+2019-08-20 12:05:26> ReleasePackage: No release notes found in C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\IvyDB.nuspec
+2019-08-20 12:05:26> DeltaPackageBuilder: Extracting .\Releases\IvyDB-1.0.1-full.nupkg and \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.2-full.nupkg into C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb
+2019-08-20 12:05:27> DeltaPackageBuilder: \lib\net45\Dapper.dll hasn't changed, writing dummy file
+2019-08-20 12:05:27> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-08-20 12:05:27> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-08-20 12:05:27> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-08-20 12:05:27> DeltaPackageBuilder: \lib\net45\Interop.bpac.dll hasn't changed, writing dummy file
+2019-08-20 12:05:27> DeltaPackageBuilder: \lib\net45\InventarDB.db hasn't changed, writing dummy file
+2019-08-20 12:05:27> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB.exe
+2019-08-20 12:05:27> DeltaPackageBuilder: \lib\net45\Ivy DB.exe.config hasn't changed, writing dummy file
+2019-08-20 12:05:27> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB_ExecutionStub.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB_ExecutionStub.exe
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll.config hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 12:05:28> DeltaPackageBuilder: \lib\net45\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 12:05:29> Program: Building embedded zip file for Setup.exe
+2019-08-20 12:48:08> Program: Starting Squirrel Updater: --releasify IvyDB.1.0.3.nupkg
+2019-08-20 12:48:09> Program: Bootstrapper EXE found at:\\192.168.1.10\software\Wagner\Ivy DB\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-20 12:48:09> Program: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.3.nupkg
+2019-08-20 12:48:09> ReleasePackage: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.3.nupkg => \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.3-full.nupkg
+2019-08-20 12:48:09> ReleasePackage: Extracting dependent packages: []
+2019-08-20 12:48:09> ReleasePackage: Removing unnecessary data
+2019-08-20 12:48:09> ReleasePackage: No release notes found in C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\IvyDB.nuspec
+2019-08-20 12:48:11> DeltaPackageBuilder: Extracting .\Releases\IvyDB-1.0.2-full.nupkg and \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.3-full.nupkg into C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\Dapper.dll hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\Interop.bpac.dll hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\InventarDB.db hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB.exe
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\Ivy DB.exe.config hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB_ExecutionStub.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB_ExecutionStub.exe
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-08-20 12:48:12> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-08-20 12:48:13> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 12:48:13> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-08-20 12:48:13> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-08-20 12:48:13> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 12:48:13> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll hasn't changed, writing dummy file
+2019-08-20 12:48:13> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll.config hasn't changed, writing dummy file
+2019-08-20 12:48:13> DeltaPackageBuilder: \lib\net45\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 12:48:13> DeltaPackageBuilder: \lib\net45\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 12:48:13> Program: Building embedded zip file for Setup.exe
+2019-08-20 12:56:08> Program: Starting Squirrel Updater: --releasify IvyDB.1.0.4.nupkg
+2019-08-20 12:56:08> Program: Bootstrapper EXE found at:\\192.168.1.10\software\Wagner\Ivy DB\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-08-20 12:56:08> Program: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.4.nupkg
+2019-08-20 12:56:08> ReleasePackage: Creating release package: \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB.1.0.4.nupkg => \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.4-full.nupkg
+2019-08-20 12:56:09> ReleasePackage: Extracting dependent packages: []
+2019-08-20 12:56:09> ReleasePackage: Removing unnecessary data
+2019-08-20 12:56:09> ReleasePackage: No release notes found in C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\IvyDB.nuspec
+2019-08-20 12:56:10> DeltaPackageBuilder: Extracting .\Releases\IvyDB-1.0.3-full.nupkg and \\192.168.1.10\software\Wagner\Ivy DB\Releases\IvyDB-1.0.4-full.nupkg into C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\Dapper.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\Interop.bpac.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\InventarDB.db hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB.exe
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\Ivy DB.exe.config hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: Delta patching C:\Users\Wagner\AppData\Local\SquirrelTemp\tempa\lib\net45\Ivy DB_ExecutionStub.exe => C:\Users\Wagner\AppData\Local\SquirrelTemp\tempb\lib\net45\Ivy DB_ExecutionStub.exe
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 12:56:11> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-08-20 12:56:12> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-08-20 12:56:12> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-08-20 12:56:12> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll hasn't changed, writing dummy file
+2019-08-20 12:56:12> DeltaPackageBuilder: \lib\net45\System.Data.SQLite.dll.config hasn't changed, writing dummy file
+2019-08-20 12:56:12> DeltaPackageBuilder: \lib\net45\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 12:56:12> DeltaPackageBuilder: \lib\net45\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+2019-08-20 12:56:12> Program: Building embedded zip file for Setup.exe

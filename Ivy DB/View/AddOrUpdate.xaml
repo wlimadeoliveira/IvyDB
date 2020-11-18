@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="Ivy_2.View.AddOrUpdate"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Ivy_2.View"
+               xmlns:self="clr-namespace:Inventar_bearbeiten"
+             mc:Ignorable="d" Background="AliceBlue" Width="1006.999" Height="286.688">
+    <Grid Margin="0,25,-0.333,25.667">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="700"/>
+
+        </Grid.RowDefinitions>
+        <Label Content="Article Type (3 first Digits)" HorizontalAlignment="Left" Margin="257,-1,0,0" VerticalAlignment="Top"/>
+        <Label Content="Description 1" HorizontalAlignment="Left" Margin="257,32,0,0" VerticalAlignment="Top"/>
+        <Label Content="Manufacturer" HorizontalAlignment="Left" Margin="257,66,0,0" VerticalAlignment="Top"/>
+        <Label Content="Supplier" HorizontalAlignment="Left" Margin="257,137,0,0" VerticalAlignment="Top"/>
+        <Label Content="Manufacturer Part Number" HorizontalAlignment="Left" Margin="257,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="Supplier Part Number" HorizontalAlignment="Left" Margin="257,179,0,0" VerticalAlignment="Top"/>
+        <Label Content="Quantity" HorizontalAlignment="Left" Margin="665,31,0,0" VerticalAlignment="Top"/>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="665,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="Location" HorizontalAlignment="Left" Margin="665,-1,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtArticleType" KeyboardNavigation.TabIndex="1" HorizontalAlignment="Left" Height="23" Margin="442,2,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="173" KeyUp="AutoCompleteArticleType" GotFocus="OnFocus_ArtTypeShowFullSuggestionList"/>
+        <TextBox Name="txtDescription" KeyboardNavigation.TabIndex="2"  HorizontalAlignment="Left" Height="23" Margin="442,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <TextBox Name="txtManufacturer" KeyboardNavigation.TabIndex="3"  HorizontalAlignment="Left" Height="23" Margin="442,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" KeyUp="AutoCompleteManufacturer" GotFocus="OnFocus_ManufacturerShowFullSuggestionList"/>
+        <TextBox Name="txtManufacturerPartNumber" KeyboardNavigation.TabIndex="4"  HorizontalAlignment="Left" Height="23" Margin="442,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <TextBox Name="txtSupplier" KeyboardNavigation.TabIndex="5"  HorizontalAlignment="Left" Height="23" Margin="442,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" TextInput="TxtSupplier_TextInput" KeyUp="AutoComplete" GotFocus="OnFocus_SupplierShowFullSuggestionList"/>
+        <TextBox Name="txtSupplierPartNumber" KeyboardNavigation.TabIndex="6"  HorizontalAlignment="Left" Height="23" Margin="442,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <TextBox Name="txtQuantity" KeyboardNavigation.TabIndex="8"  HorizontalAlignment="Left" Height="23" Margin="770,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <TextBox Name="txtLocation" KeyboardNavigation.TabIndex="7"  HorizontalAlignment="Left" Height="23" Margin="770,2,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163" GotFocus="OnFocus_LocationFullSuggetionList"/>
+        <Button Name="btnAddArticle" KeyboardNavigation.TabIndex="12"  Content="Add Article" HorizontalAlignment="Left" Margin="841,183,0,0" VerticalAlignment="Top" Width="117" Height="41" Click="BtnAddArticle_Click"/>
+        <Label Content="Pricing"   HorizontalAlignment="Left" Margin="667,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.682,0.183"/>
+        <TextBox x:Name="txtPricing" KeyboardNavigation.TabIndex="11"  HorizontalAlignment="Left" Height="23" Margin="770,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <Label Content="Projects"  HorizontalAlignment="Left" Margin="665,66,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtProjects" IsReadOnly="True" KeyboardNavigation.TabIndex="9"   HorizontalAlignment="Left" Height="23" Margin="770,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"  MouseLeftButtonUp="OnFocus_ProjectFullSuggetionList" GotFocus="OnFocus_ProjectFullSuggetionList"/>
+        <ListBox Name="listSuggestions" ScrollViewer.HorizontalScrollBarVisibility="Hidden" Visibility="Hidden" BorderBrush="Black" BorderThickness="1"  HorizontalAlignment="Left" Height="63" Margin="442,25,0,0" VerticalAlignment="Top" Width="173" KeyDown="itemSelected" MouseDoubleClick="itemSelectedByMouse"/>
+        <ListBox Name="listfullSuggestions"   HorizontalAlignment="Left" Height="236" Margin="10,0,0,0" VerticalAlignment="Top" Width="219" SelectionChanged="itemSelectedFullList"/>
+        <TreeView x:Name="tvrCategory" Margin="10,0,778,464" SelectedItemChanged="OnFocus_ArticleType" MouseDoubleClick="Choose_ArticleType_DoubleClick">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate  ItemsSource="{Binding Items}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding bezeichnung}"/>
+                        <TextBlock Text=" ( " Foreground="Blue"/>
+
+                        <TextBlock Text="{Binding id}"  Foreground="Blue"></TextBlock>
+                        <TextBlock Text=" )" Foreground="Blue"/>
+                    </StackPanel>
+
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+
+        </TreeView>
+
+        <Button Content="NEW" HorizontalAlignment="Left" Margin="770,183,0,0" VerticalAlignment="Top" Width="43" Height="41" Click="Button_Click"/>
+        <Button Content="+" HorizontalAlignment="Left" FontWeight="Bold" Margin="627,145,0,0" VerticalAlignment="Top" Width="23" Height="23" Click="BTN_AddSupplier"/>
+        <Button Content="+" HorizontalAlignment="Left" FontWeight="Bold" Margin="627,71,0,0" VerticalAlignment="Top" Width="23" Height="23" Click="BTN_AddManufacturer" RenderTransformOrigin="0.751,-0.08"/>
+        <ComboBox Name="cbxStatus" TabIndex="10"  HorizontalAlignment="Left" Margin="770,106,0,0" VerticalAlignment="Top" Width="163"/>
+        <Button Content="+" HorizontalAlignment="Left" FontWeight="Bold" Margin="947,3,0,0" VerticalAlignment="Top" Width="23" Height="23" Click="BTN_AddLocation"/>
+        <Button Content="+" HorizontalAlignment="Left" FontWeight="Bold" Margin="947,71,0,0" VerticalAlignment="Top" Width="23" Height="23" Click="BTN_AddProject"/>
+        <Button Content="+" HorizontalAlignment="Left" FontWeight="Bold" Margin="627,2,0,0" VerticalAlignment="Top" Width="23" Height="23" Click="BTN_AddCategory"/>
+        <Button Content="Print Label" HorizontalAlignment="Left" Margin="264,216,0,0" VerticalAlignment="Top" Width="75" Click="btnPrintLabel"/>
+
+    </Grid>
+</UserControl>
